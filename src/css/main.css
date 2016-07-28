@@ -102,7 +102,7 @@ li {
 body {
     font-size: 0.12rem;
     line-height: 1.5;
-    background-color: #f7f7f7;
+    background-color: #fff;
 }
 
 a {
@@ -128,11 +128,17 @@ header {
 }
 
 header .top .head_l {
-
+    width: 35.6%;
+    height: 1.04rem;
+    float:left;
+    background: url('../img/head_l.png') no-repeat;
 }
 
 header .top .head_r {
-
+    width: 64.4%;
+    height: 1.04rem;
+    float: left;
+    background: url('../img/head_r.png') no-repeat;
 }
 
 header .main {
@@ -174,7 +180,7 @@ header .main ul li a:hover, a:active {
     width: 100%;
 }
 
-/*上部分*/
+/*上部*/
 
 .content-top {
     width: 100%;
@@ -247,6 +253,101 @@ header .main ul li a:hover, a:active {
     border: 4px solid #386d14;
     background: url('../img/ad.png') no-repeat;
     margin-top: 3px;
+}
+
+/*中部及下部*/
+
+.elem {
+    width: 32.7%;
+    height: 1.95rem;
+    display: block;
+    float: left;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.content-middle .elem + .elem, .content-bottom .elem + .elem {
+    margin-left: 6px;
+}
+
+.elem .title {
+    display: block;
+    float:left;
+    width: 0.79rem;
+    height: 1.57rem;
+}
+
+.elem ul li {
+    display: inline-block;
+    width: 2.26rem;
+    height: 0.22rem;
+    margin-left: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.elem ul li a.more {
+    text-align: right;
+    float: right;
+    text-decoration: underline;
+}
+
+/*中部*/
+
+.content-middle {
+    width: 100%;
+    display:block;
+    margin: 8px 0px 10px;
+}
+
+.content-middle .xyjd .xyjd-top img:nth-child(1) {
+    width: 0.70rem;
+    height: 0.70rem;
+    display: block;
+    float:left;
+    border: 1px solid #ccc;
+}
+
+.content-middle .xyjd .xyjd-top img:nth-child(2) {
+    width: 2.52rem;
+    height: 0.70rem;
+    display:block;
+    float:left;
+    border: 1px solid #ccc;
+}
+
+.content-middle .xyjd .xyjd-content p {
+    text-indent: 2em;
+    display: block;
+    margin: 0px 2px;
+}
+
+.content-middle .rcpy .title {
+    background: url('../img/rcpy-pic.jpg') no-repeat;
+}
+
+.content-middle .kyxs .title {
+    background: url('../img/kyxs-pic.jpg') no-repeat;
+}
+
+/*下部*/
+
+.content-bottom {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.content-bottom .xydt .title {
+    background: url('../img/xydt-pic.jpg') no-repeat;
+}
+
+.content-bottom .zsjy .title {
+    background: url('../img/zsjy-pic.jpg') no-repeat;
+}
+
+.content-bottom .xxgg .title {
+    background: url('../img/xxgg-pic.jpg') no-repeat;
 }
 
 /*底部*/
