@@ -106,7 +106,7 @@ body {
 }
 
 a {
-    color: #666;
+    color: #326331;
     text-decoration: none;
 }
 
@@ -166,6 +166,87 @@ header .main ul li a {
 header .main ul li a:hover, a:active {
     color: #993333;
     text-decoration: underline;
+}
+
+/*网站主要内容*/
+
+.container {
+    width: 100%;
+}
+
+/*上部分*/
+
+.content-top {
+    width: 100%;
+}
+
+.content-top .left {
+    width: 49%;
+    display: block;
+    float: left;
+}
+
+.content-top .left .xyxw-pic {
+    display:block;
+    float: left;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.content-top .left .xyxw ul {
+    display: block;
+    float: left;
+    max-width: 3rem;
+}
+
+.content-top .left .xyxw ul:first-child li {
+    height: 0.22rem;
+}
+
+.content-top .left .xyxw ul:last-child li {
+    padding: 3px 0 1px;
+}
+
+.content-top .left .xyxw ul a {
+    display: inline-block;
+    width: 2.84rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.content-top .left .xyxw .li-pic {
+    display: inline-block;
+    width: 0.16rem;
+    height: 0.22rem;
+    padding: 0px;
+    background: url('../img/li.gif') no-repeat;
+}
+
+.content-top .left .ksdl li {
+    display: block;
+    float: left;
+}
+
+.content-top .left .ksdl li a {
+    display: inline-block;
+    width: 0.80rem;
+    height: 0.24rem;
+}
+
+.content-top .right {
+    width: 51%;
+    display: block;
+    float: left;
+}
+
+.content-top .right .ad {
+    display: block;
+    width: 5.02rem;
+    height: 2.55rem;
+    border: 4px solid #386d14;
+    background: url('../img/ad.png') no-repeat;
+    margin-top: 3px;
 }
 
 /*底部*/
