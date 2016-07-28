@@ -7,7 +7,7 @@
   ================*/
 
 html {
-    font-size: 62.5%; /*这时候一个rem=10px*/
+    font-size: 625%; /*这时候一个rem=100px*/
     color: #222;
 }
 
@@ -91,7 +91,7 @@ li {
 
 .browserupgrade {
     margin: 0rem;
-    padding: 1rem;
+    padding: 0.1rem;
     background: #ccc;
 }
 
@@ -100,7 +100,7 @@ li {
   =============*/
 
 body {
-    font-size: 1.2rem;
+    font-size: 0.12rem;
     line-height: 1.5;
     background-color: #f7f7f7;
 }
@@ -118,7 +118,7 @@ a:hover, a:active {
 /*外包容器*/
 
 div.main {
-    width: 100rem;
+    width: 10rem;
 }
 
 /*网站头部*/
@@ -127,11 +127,64 @@ header {
     width: 100%;
 }
 
-header nav {
-    display: block;
+header .top .head_l {
+
 }
 
-header .top .head_l,.head_r {
+header .top .head_r {
 
+}
 
+header .main {
+    line-height: 0.26rem;
+    padding: 0px 0.15rem;
+    color: #fff;
+    background: #368a36;
+    border-top: 1px solid #c4daa4;
+    border-bottom: 1px solid #c4daa4;
+}
+
+header .main ul {
+    text-align: center;
+}
+
+header .main ul li {
+    display: inline-block;
+}
+
+header .main ul li + li {
+    border-left: 1px solid #2e4d29;
+    margin-left: -6px;
+}
+
+header .main ul li a {
+    display: inline-block;
+    padding: 0 0.14rem;
+    color: #ffffff;
+}
+
+header .main ul li a:hover, a:active {
+    color: #993333;
+    text-decoration: underline;
+}
+
+/*底部*/
+
+footer {
+    width: 100%;
+    padding: 0.03rem 0px 0px;
+    background: url('../img/foot_b.jpg') repeat-x;
+}
+
+footer p {
+    text-align: center;
+    color: #808080;
+}
+
+footer p span {
+    display: inline-block;
+}
+
+footer p span + span {
+    margin-left: 0.3rem;
 }
