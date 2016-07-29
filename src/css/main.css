@@ -145,9 +145,13 @@ header .main {
     line-height: 0.26rem;
     padding: 0px 0.15rem;
     color: #fff;
-    background: #368a36;
+    background: -webkit-linear-gradient(#42a042, #216420); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#42a042, #216420); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#42a042, #216420); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#42a042, #216420); /* 标准的语法（必须放在最后） */
     border-top: 1px solid #c4daa4;
     border-bottom: 1px solid #c4daa4;
+    border-radius: 5px;
 }
 
 header .main ul {
@@ -159,8 +163,8 @@ header .main ul li {
 }
 
 header .main ul li + li {
-    border-left: 1px solid #2e4d29;
-    margin-left: -6px;
+    border-left: 2px solid #2e4d29;
+    margin-left: -7px;
 }
 
 header .main ul li a {
@@ -269,7 +273,7 @@ header .main ul li a:hover, a:active {
 }
 
 .content-middle .elem + .elem, .content-bottom .elem + .elem {
-    margin-left: 6px;
+    margin-left: 0.00rem;
 }
 
 .elem .title {
@@ -296,9 +300,9 @@ header .main ul li a:hover, a:active {
 /*中部*/
 
 .content-middle {
-    width: 100%;
+    width: auto;
     display:block;
-    margin: 8px 0px 10px;
+    margin: 8px 0 10px;
 }
 
 .content-middle .xyjd .xyjd-top img:nth-child(1) {
