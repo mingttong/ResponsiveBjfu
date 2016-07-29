@@ -141,14 +141,20 @@ header .top .head_r {
     background: url('../img/head_r.png') no-repeat;
 }
 
+header .top .head-pic {
+    width: 100%;
+    height: 1.04rem;
+    background: url('../img/head-pic.jpg') no-repeat;
+}
+
 header .main {
     line-height: 0.26rem;
     padding: 0px 0.15rem;
     color: #fff;
-    background: -webkit-linear-gradient(#42a042, #216420); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(#42a042, #216420); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(#42a042, #216420); /* Firefox 3.6 - 15 */
-    background: linear-gradient(#42a042, #216420); /* 标准的语法（必须放在最后） */
+    background: -webkit-linear-gradient(#42a042, #1c561c); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#42a042, #1c561c); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#42a042, #1c561c); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#42a042, #1c561c); /* 标准的语法（必须放在最后） */
     border-top: 1px solid #c4daa4;
     border-bottom: 1px solid #c4daa4;
     border-radius: 5px;
@@ -339,7 +345,6 @@ header .main ul li a:hover, a:active {
 
 .content-bottom {
     display: block;
-    margin-bottom: 10px;
 }
 
 .content-bottom .xydt .title {
@@ -352,6 +357,31 @@ header .main ul li a:hover, a:active {
 
 .content-bottom .xxgg .title {
     background: url('../img/xxgg-pic.jpg') no-repeat;
+}
+
+/*快速链接*/
+
+.kslj {
+    width: 100%;
+    height: 0.3rem;
+    border: 1px solid #ccc;
+    margin: 6px 0px 6px;
+    padding-top: 5px;
+}
+
+.kslj .sele {
+    display: inline-block;
+    width: 33%;
+    height: 0.19rem;
+    text-align: center;
+}
+
+.kslj .sele + .sele {
+    margin-left: -5px;
+}
+
+.kslj .sele select {
+    height: 100%;
 }
 
 /*底部*/
