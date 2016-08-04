@@ -134,8 +134,10 @@ header {
 }
 
 header .top .head-pic {
+    /*width: 100%;*/
+    /*height: 1.04rem;*/
+    max-height: 1.04rem;
     width: 100%;
-    height: 1.04rem;
 }
 
 header .top .head-pic img {
@@ -180,6 +182,27 @@ header .main ul li a:hover, a:active {
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 62.5rem) {
+
+    header .main ul li:nth-child(1),
+    header .main ul li:nth-child(5),
+    header .main ul li:nth-child(10),
+    header .main ul li:nth-child(11),
+    header .main ul li:nth-child(12),
+    header .main ul li:nth-child(13) {
+        display: none;
+    }
+
+    header .main ul li + li {
+        border: none;
+        margin-left: 0px;
+    }
+
+    header .main ul {
+        text-align: left;
+    }
+}
+
 /*网站主要内容*/
 
 .container {
@@ -215,16 +238,16 @@ header .main ul li a:hover, a:active {
     height: 0.22rem;
 }
 
-.content-top .left .xyxw ul:last-child li {
-    padding: 3px 0 1px;
+.content-top .left .xyxw ul a {
+display: inline-block;
+width: 2.84rem;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
 }
 
-.content-top .left .xyxw ul a {
-    display: inline-block;
-    width: 2.84rem;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
+.content-top .left .xyxw ul:last-child li {
+    padding: 3px 0 1px;
 }
 
 .content-top .left .xyxw .li-pic {
@@ -261,6 +284,34 @@ header .main ul li a:hover, a:active {
     margin-top: 3px;
 }
 
+@media only screen and (max-width: 62.5rem) {
+    .content-top .left {
+        width: 100%;
+    }
+
+    .content-top .left .xyxw {
+        width: 50%;
+        float: left;
+    }
+
+    .content-top .left .xyxw ul a {
+        width: 2rem;
+    }
+
+    .content-top .left .ksdl {
+        width: 50%;
+        float: left;
+    }
+
+    .content-top .left .ksdl li a {
+        margin: 0px 0.10rem;
+    }
+
+    .content-top .right {
+        display: none;
+    }
+}
+
 /*中部及下部*/
 
 .elem {
@@ -294,6 +345,13 @@ header .main ul li a:hover, a:active {
     text-align: right;
     float: right;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 62.5rem) {
+    .elem {
+        width: 100%;
+        float: none;
+    }
 }
 
 /*中部*/
@@ -333,6 +391,23 @@ header .main ul li a:hover, a:active {
     background: url('../img/kyxs-pic.jpg') no-repeat;
 }
 
+@media only screen and (max-width: 62.5rem) {
+    .content-middle:before,
+    .content-middle:after {
+        content: "";
+        display: block;
+    }
+
+    .content-middle:after {
+        clear: none;
+    }
+
+    .content-middle {
+        width: 49%;
+        float: left;
+    }
+}
+
 /*下部*/
 
 .content-bottom {
@@ -349,6 +424,14 @@ header .main ul li a:hover, a:active {
 
 .content-bottom .xxgg .title {
     background: url('../img/xxgg-pic.jpg') no-repeat;
+}
+
+@media only screen and (max-width: 62.5rem) {
+    .content-bottom {
+        width: 49%;
+        float: left;
+        margin: 8px 0 10px;
+    }
 }
 
 /*快速链接*/
