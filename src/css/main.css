@@ -286,8 +286,13 @@ white-space: nowrap;
     }
 
     .content-top .left .xyxw {
-        width: 4rem;
+        width: 50%;
         float: left;
+        overflow: hidden;
+    }
+
+    .content-top .left .title {
+        width: 3.85rem;
         overflow: hidden;
     }
 
@@ -296,7 +301,7 @@ white-space: nowrap;
     }
 
     .content-top .left .ksdl {
-        width: 4rem;
+        width: 50%;
         float: left;
         overflow: hidden;
     }
