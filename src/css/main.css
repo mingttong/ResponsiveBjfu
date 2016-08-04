@@ -183,7 +183,6 @@ header .main ul li a:hover, a:active {
 }
 
 @media only screen and (max-width: 62.5rem) {
-
     header .main ul li:nth-child(1),
     header .main ul li:nth-child(5),
     header .main ul li:nth-child(10),
@@ -196,6 +195,12 @@ header .main ul li a:hover, a:active {
     header .main ul li + li {
         border: none;
         margin: 0px 13px;
+    }
+}
+
+@media only screen and (min-width: 41.875rem) and (max-width: 50rem) {
+    header .main ul li + li {
+        margin: 0px;
     }
 }
 
@@ -315,6 +320,16 @@ white-space: nowrap;
     }
 }
 
+@media only screen and (min-width: 43.125rem) and (max-width: 50rem) {
+    .content-top .left .xyxw ul:nth-child(2) {
+        display: none;
+    }
+
+    .content-top .left .title {
+        width: 3.26rem;
+    }
+}
+
 /*中部及下部*/
 
 .elem {
@@ -356,6 +371,12 @@ white-space: nowrap;
         float: none;
         margin-top: 5px;
         border-top: 1px solid #ccc;
+    }
+}
+
+@media only screen and (max-width: 50rem) {
+    .elem {
+        width: 3.35rem;
     }
 }
 
