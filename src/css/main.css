@@ -195,11 +195,7 @@ header .main ul li a:hover, a:active {
 
     header .main ul li + li {
         border: none;
-        margin-left: 0px;
-    }
-
-    header .main ul {
-        text-align: left;
+        margin: 0px 13px;
     }
 }
 
@@ -290,8 +286,9 @@ white-space: nowrap;
     }
 
     .content-top .left .xyxw {
-        width: 50%;
+        width: 4rem;
         float: left;
+        overflow: hidden;
     }
 
     .content-top .left .xyxw ul a {
@@ -299,8 +296,9 @@ white-space: nowrap;
     }
 
     .content-top .left .ksdl {
-        width: 50%;
+        width: 4rem;
         float: left;
+        overflow: hidden;
     }
 
     .content-top .left .ksdl li a {
@@ -349,9 +347,10 @@ white-space: nowrap;
 
 @media only screen and (max-width: 62.5rem) {
     .elem {
-        width: 100%;
+        width: 3.8rem;
         float: none;
         margin-top: 5px;
+        border-top: 1px solid #ccc;
     }
 }
 
