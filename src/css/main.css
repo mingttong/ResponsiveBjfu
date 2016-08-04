@@ -351,6 +351,7 @@ white-space: nowrap;
     .elem {
         width: 100%;
         float: none;
+        margin-top: 5px;
     }
 }
 
@@ -403,8 +404,13 @@ white-space: nowrap;
     }
 
     .content-middle {
-        width: 49%;
+        width: 49.5%;
         float: left;
+        margin-right: 5px;
+    }
+
+    .content-middle .xyjd .xyjd-content p {
+        max-width: 3.19rem;
     }
 }
 
@@ -428,7 +434,7 @@ white-space: nowrap;
 
 @media only screen and (max-width: 62.5rem) {
     .content-bottom {
-        width: 49%;
+        width: 49.5%;
         float: left;
         margin: 8px 0 10px;
     }
