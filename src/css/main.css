@@ -140,7 +140,7 @@ header .top .head-pic {
     width: 100%;
 }
 
-header .top .head-pic img:last-child {
+header .top .head-pic img:nth-child(2) {
     display: none;
 }
 
@@ -213,7 +213,7 @@ header .main ul li a:hover, a:active {
         display: none;
     }
 
-    header .top .head-pic img:last-child {
+    header .top .head-pic img:nth-child(2) {
         display: block;
     }
 
@@ -386,8 +386,12 @@ white-space: nowrap;
 }
 
 @media only screen and (max-width: 31rem) {
+    .content-top .left .ksdl ul {
+        margin-left: 3px;
+    }
+
     .content-top .left .ksdl li a {
-        width: 0.78rem;
+        width: 0.77rem;
         margin: 0px
     }
 }
