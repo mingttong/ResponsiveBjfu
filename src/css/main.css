@@ -262,11 +262,11 @@ header .main ul li a:hover, a:active {
 }
 
 .content-top .left .xyxw ul a {
-display: inline-block;
-width: 2.84rem;
-text-overflow: ellipsis;
-overflow: hidden;
-white-space: nowrap;
+    display: inline-block;
+    max-width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .content-top .left .xyxw ul:last-child li {
@@ -393,6 +393,16 @@ white-space: nowrap;
     .content-top .left .ksdl li a {
         width: 0.77rem;
         margin: 0px
+    }
+}
+
+@media only screen and (max-width: 30.625rem) {
+    .content-top .left .xyxw-pic {
+        display: none;
+    }
+
+    .content-top .left .xyxw  ul a {
+        max-width: 90%;
     }
 }
 
