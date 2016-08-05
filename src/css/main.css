@@ -140,7 +140,7 @@ header .top .head-pic {
     width: 100%;
 }
 
-header .top .head-pic img:nth-child(2) {
+header .top .head-pic img + img {
     display: none;
 }
 
@@ -225,6 +225,27 @@ header .main ul li a:hover, a:active {
         padding: 0px 0.04rem;
     }
 }
+
+@media only screen and (max-width: 30.625rem) {
+    header .top .head-pic img:nth-child(2) {
+        display: none;
+    }
+
+    header .top .head-pic img:nth-child(3) {
+        display: block;
+    }
+
+    header .main ul li:nth-child(3),
+    header .main ul li:nth-child(9) {
+        display: none;
+    }
+}
+
+/*@media only screen and (max-width: 25.8125rem) {*/
+    /*header .main ul li:nth-child(3) {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
 
 /*网站主要内容*/
 
@@ -401,8 +422,12 @@ header .main ul li a:hover, a:active {
         display: none;
     }
 
-    .content-top .left .xyxw  ul a {
-        max-width: 90%;
+    .content-top .left .xyxw  ul {
+        max-width: 3.64rem;
+    }
+
+    .content-top .left .xyxw ul:nth-child(2) {
+        display: none;
     }
 }
 
