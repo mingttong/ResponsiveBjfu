@@ -322,17 +322,9 @@ white-space: nowrap;
         overflow: hidden;
     }
 
-    .content-top .left .xyxw ul a {
-        width: 2rem;
-    }
-
     .content-top .left .ksdl {
         float: left;
         overflow: hidden;
-    }
-
-    .content-top .left .ksdl li a {
-        margin: 0px 0.10rem;
     }
 
     .content-top .right {
@@ -345,8 +337,16 @@ white-space: nowrap;
         width: 50%;
     }
 
+    .content-top .left .xyxw ul a {
+        width: 2rem;
+    }
+
     .content-top .left .ksdl {
         width: 50%;
+    }
+
+    .content-top .left .ksdl li a {
+        margin: 0px 0.10rem;
     }
 }
 
@@ -368,6 +368,11 @@ white-space: nowrap;
 
     .content-top .left .xyxw .title {
         width: 100%;
+    }
+
+    .content-top .left .xyxw ul:last-child {
+        float: right;
+        margin-right: 5px;
     }
 
     .content-top .left .ksdl {
