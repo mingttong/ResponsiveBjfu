@@ -263,7 +263,7 @@ header .main ul li a:hover, a:active {
 
 .content-top .left .xyxw ul a {
     display: inline-block;
-    max-width: 90%;
+    max-width: 94%;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
