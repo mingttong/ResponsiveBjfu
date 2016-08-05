@@ -385,6 +385,13 @@ white-space: nowrap;
     }
 }
 
+@media only screen and (max-width: 31rem) {
+    .content-top .left .ksdl li a {
+        width: 0.78rem;
+        margin: 0px
+    }
+}
+
 /*中部及下部*/
 
 .elem {
@@ -432,6 +439,19 @@ white-space: nowrap;
 @media only screen and (max-width: 50rem) {
     .elem {
         width: 3.35rem;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 43.0625rem) {
+    .elem {
+        width: 99%;
+        margin-left: 2px;
+        margin-right: 0px;
+    }
+
+    .elem .content .title {
+        display: none;
     }
 }
 
@@ -472,7 +492,7 @@ white-space: nowrap;
     background: url('../img/kyxs-pic.jpg') no-repeat;
 }
 
-@media only screen and (min-width: 43.125rem) and (max-width: 62.5rem) {
+@media only screen and (max-width: 62.5rem) {
     .content-middle:before,
     .content-middle:after {
         content: "";
@@ -491,6 +511,20 @@ white-space: nowrap;
 
     .content-middle .xyjd .xyjd-content p {
         max-width: 3.19rem;
+    }
+}
+
+@media only screen and (max-width: 43.0625rem) {
+    .content-middle {
+        margin-right: 2px;
+    }
+
+    .content-middle .xyjd .xyjd-top {
+        display: none;
+    }
+
+    .content-middle .xyjd .xyjd-content p {
+        margin: 0.1rem 0.2rem 0px 0.05rem;
     }
 }
 
@@ -523,7 +557,7 @@ white-space: nowrap;
 /*快速链接*/
 
 .kslj {
-    width: 100%;
+    width: 99.6%;
     height: 0.3rem;
     border: 1px solid #ccc;
     margin: 6px 0px 6px;
@@ -569,5 +603,5 @@ footer p span {
 }
 
 footer p span + span {
-    margin-left: 0.3rem;
+    margin-left: 0.20rem;
 }
