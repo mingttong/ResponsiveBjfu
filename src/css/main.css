@@ -241,11 +241,11 @@ header .main ul li a:hover, a:active {
     }
 }
 
-/*@media only screen and (max-width: 25.8125rem) {*/
-    /*header .main ul li:nth-child(3) {*/
-        /*display: none;*/
-    /*}*/
-/*}*/
+@media only screen and (max-width: 25.8125rem) {
+    header .main ul li a {
+        padding: 0px;
+    }
+}
 
 /*网站主要内容*/
 
@@ -500,6 +500,12 @@ header .main ul li a:hover, a:active {
     }
 }
 
+@media only screen and (max-width: 21.875rem) {
+    .elem .content .title {
+        display: none;
+    }
+}
+
 /*中部*/
 
 .content-middle {
@@ -570,6 +576,16 @@ header .main ul li a:hover, a:active {
 
     .content-middle .xyjd .xyjd-content p {
         margin: 0.1rem 0.2rem 0px 0.05rem;
+    }
+}
+
+@media only screen and (max-width: 21.875rem) {
+    .content-middle .xyjd .xyjd-top {
+        display: none;
+    }
+
+    .content-middle .xyjd .xyjd-content p {
+        margin: 0.1rem 0.15rem;
     }
 }
 
