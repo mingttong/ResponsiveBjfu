@@ -482,7 +482,7 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 43.0625rem) {
+@media only screen and (min-width: 30.6875rem) and (max-width: 43.0625rem) {
     .elem {
         width: 99%;
         margin-left: 2px;
@@ -491,6 +491,12 @@ header .main ul li a:hover, a:active {
 
     .elem .content .title {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 30.625rem) {
+    .elem {
+        width: 98%;
     }
 }
 
@@ -531,7 +537,7 @@ header .main ul li a:hover, a:active {
     background: url('../img/kyxs-pic.jpg') no-repeat;
 }
 
-@media only screen and (max-width: 62.5rem) {
+@media only screen and (min-width: 30.6875rem) and (max-width: 62.5rem) {
     .content-middle:before,
     .content-middle:after {
         content: "";
@@ -553,7 +559,7 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 43.0625rem) {
+@media only screen and (min-width: 30.6875rem) and (max-width: 43.0625rem) {
     .content-middle {
         margin-right: 2px;
     }
@@ -585,12 +591,16 @@ header .main ul li a:hover, a:active {
     background: url('../img/xxgg-pic.jpg') no-repeat;
 }
 
-@media only screen and (max-width: 62.5rem) {
+@media only screen and (min-width: 30.6875rem) and (max-width: 62.5rem) {
     .content-bottom {
         width: 49.5%;
         float: left;
         margin: 8px 0 10px;
     }
+}
+
+@media only screen and (max-width: 30.625rem) {
+
 }
 
 /*快速链接*/
