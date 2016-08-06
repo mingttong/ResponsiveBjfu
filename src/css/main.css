@@ -246,6 +246,10 @@ header .main ul li a:hover, a:active {
 }
 
 @media only screen and (max-width: 25.8125rem) {
+    header .main {
+        padding: 0px;
+    }
+
     header .main ul li a {
         padding: 0px;
     }
@@ -288,7 +292,7 @@ header .main ul li a:hover, a:active {
 
 .content-top .left .xyxw ul a {
     display: inline-block;
-    max-width: 94%;
+    max-width: 2.82rem;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -422,15 +426,23 @@ header .main ul li a:hover, a:active {
 }
 
 @media only screen and (max-width: 30.625rem) {
-    .content-top .left .xyxw-pic {
-        display: none;
-    }
-
-    .content-top .left .xyxw  ul {
-        max-width: 3.64rem;
+    .content-top .left .xyxw ul a {
+        max-width: 2.4rem;
     }
 
     .content-top .left .xyxw ul:nth-child(2) {
+        /*display: none;*/
+    }
+}
+
+@media only screen and (max-width: 27.5rem) {
+    .content-top .left .xyxw ul:nth-child(2) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 22.5rem) {
+    .content-top .left .xyxw-pic {
         display: none;
     }
 }
@@ -580,6 +592,12 @@ header .main ul li a:hover, a:active {
 
     .content-middle .xyjd .xyjd-content p {
         margin: 0.1rem 0.2rem 0px 0.05rem;
+    }
+}
+
+@media only screen and (min-width: 21.9375rem) and (max-width: 30.625rem) {
+    .content-middle .xyjd .xyjd-content p {
+        width: 3.23rem;
     }
 }
 
