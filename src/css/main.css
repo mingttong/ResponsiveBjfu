@@ -121,7 +121,7 @@ div.main {
     width: 10rem;
 }
 
-@media only screen and (max-width: 62.5rem) {
+@media only screen and (max-width: 62.5em) {
     div.main {
         width: 100%;
     }
@@ -184,13 +184,13 @@ header .main ul li a:hover, a:active {
     text-decoration: underline;
 }
 
-@media only screen and (min-width: 43.125rem) {
+@media only screen and (min-width: 43.125em) {
     header .main {
         margin-top: -5px;
     }
 }
 
-@media only screen and (max-width: 62.5rem) {
+@media only screen and (max-width: 62.5em) {
     header .main ul li:nth-child(1),
     header .main ul li:nth-child(5),
     header .main ul li:nth-child(10),
@@ -206,13 +206,13 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 50rem) {
+@media only screen and (max-width: 50em) {
     header .main ul li + li {
         margin: 0px;
     }
 }
 
-@media only screen and (max-width: 43.0625rem) {
+@media only screen and (max-width: 43.0625em) {
     header .top .head-pic img:first-child {
         display: none;
     }
@@ -230,7 +230,7 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 30.625rem) {
+@media only screen and (max-width: 30.625em) {
     header .top .head-pic img:nth-child(2) {
         display: none;
     }
@@ -245,7 +245,7 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 25.8125rem) {
+@media only screen and (max-width: 25.8125em) {
     header .main {
         padding: 0px;
     }
@@ -274,7 +274,7 @@ header .main ul li a:hover, a:active {
 }
 
 .content-top .left .xyxw-pic {
-    display:block;
+    display: block;
     float: left;
     margin-top: 3px;
     margin-left: 3px;
@@ -336,7 +336,7 @@ header .main ul li a:hover, a:active {
     margin-top: 3px;
 }
 
-@media only screen and (max-width: 62.5rem) {
+@media only screen and (max-width: 62.5em) {
     .content-top .left {
         width: 100%;
     }
@@ -361,7 +361,7 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (min-width: 43.125rem) and (max-width: 62.5rem) {
+@media only screen and (min-width: 43.125em) and (max-width: 62.5em) {
     .content-top .left .xyxw {
         width: 50%;
     }
@@ -379,7 +379,7 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (min-width: 43.125rem) and (max-width: 50rem) {
+@media only screen and (min-width: 43.125em) and (max-width: 50em) {
     .content-top .left .xyxw ul:nth-child(2) {
         display: none;
     }
@@ -389,7 +389,7 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 43.0625rem) {
+@media only screen and (max-width: 43.0625em) {
     .content-top .left .xyxw {
         max-width: 4.82rem;
         float: none;
@@ -414,7 +414,7 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 31rem) {
+@media only screen and (max-width: 31em) {
     .content-top .left .ksdl ul {
         margin-left: 3px;
     }
@@ -425,7 +425,7 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 30.625rem) {
+@media only screen and (max-width: 30.625em) {
     .content-top .left .xyxw ul a {
         max-width: 2.4rem;
     }
@@ -435,13 +435,13 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 27.5rem) {
+@media only screen and (max-width: 27.5em) {
     .content-top .left .xyxw ul:nth-child(2) {
         display: none;
     }
 }
 
-@media only screen and (max-width: 22.5rem) {
+@media only screen and (max-width: 22.5em) {
     .content-top .left .xyxw-pic {
         display: none;
     }
@@ -463,7 +463,7 @@ header .main ul li a:hover, a:active {
 
 .elem .title {
     display: block;
-    float:left;
+    float: left;
     width: 0.79rem;
     height: 1.57rem;
 }
@@ -482,7 +482,7 @@ header .main ul li a:hover, a:active {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 62.5rem) {
+@media only screen and (max-width: 62.5em) {
     .elem {
         width: 3.8rem;
         float: none;
@@ -491,14 +491,14 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 50rem) {
+@media only screen and (max-width: 50em) {
     .elem {
         width: 3.35rem;
         overflow: hidden;
     }
 }
 
-@media only screen and (min-width: 30.6875rem) and (max-width: 43.0625rem) {
+@media only screen and (min-width: 30.6875em) and (max-width: 43.0625em) {
     .elem {
         width: 99%;
         margin-left: 2px;
@@ -510,13 +510,13 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 30.625rem) {
+@media only screen and (max-width: 30.625em) {
     .elem {
         width: 98%;
     }
 }
 
-@media only screen and (max-width: 21.875rem) {
+@media only screen and (max-width: 21.875em) {
     .elem .content .title {
         display: none;
     }
@@ -525,7 +525,7 @@ header .main ul li a:hover, a:active {
 /*中部*/
 
 .content-middle {
-    display:block;
+    display: block;
     margin: 8px 0 10px;
 }
 
@@ -533,15 +533,15 @@ header .main ul li a:hover, a:active {
     width: 0.63rem;
     height: 0.63rem;
     display: block;
-    float:left;
+    float: left;
     border: 1px solid #ccc;
 }
 
 .content-middle .xyjd .xyjd-top img:last-child {
     width: 2.52rem;
     height: 0.63rem;
-    display:block;
-    float:left;
+    display: block;
+    float: left;
     border: 1px solid #ccc;
 }
 
@@ -559,7 +559,7 @@ header .main ul li a:hover, a:active {
     background: url('../img/kyxs-pic.jpg') no-repeat;
 }
 
-@media only screen and (min-width: 30.6875rem) and (max-width: 62.5rem) {
+@media only screen and (min-width: 30.6875em) and (max-width: 62.5em) {
     .content-middle:before,
     .content-middle:after {
         content: "";
@@ -581,7 +581,7 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (min-width: 30.6875rem) and (max-width: 43.0625rem) {
+@media only screen and (min-width: 30.6875em) and (max-width: 43.0625em) {
     .content-middle {
         margin-right: 2px;
     }
@@ -595,13 +595,13 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (min-width: 21.9375rem) and (max-width: 30.625rem) {
+@media only screen and (min-width: 21.9375em) and (max-width: 30.625em) {
     .content-middle .xyjd .xyjd-content p {
         width: 3.23rem;
     }
 }
 
-@media only screen and (max-width: 21.875rem) {
+@media only screen and (max-width: 21.875em) {
     .content-middle .xyjd .xyjd-top {
         display: none;
     }
@@ -629,7 +629,7 @@ header .main ul li a:hover, a:active {
     background: url('../img/xxgg-pic.jpg') no-repeat;
 }
 
-@media only screen and (min-width: 30.6875rem) and (max-width: 62.5rem) {
+@media only screen and (min-width: 30.6875em) and (max-width: 62.5em) {
     .content-bottom {
         width: 49.5%;
         float: left;
@@ -637,7 +637,7 @@ header .main ul li a:hover, a:active {
     }
 }
 
-@media only screen and (max-width: 30.625rem) {
+@media only screen and (max-width: 30.625em) {
 
 }
 
@@ -666,7 +666,7 @@ header .main ul li a:hover, a:active {
     height: 100%;
 }
 
-@media only screen and (max-width: 43.0625rem) {
+@media only screen and (max-width: 43.0625em) {
     .kslj {
         display: none;
     }
